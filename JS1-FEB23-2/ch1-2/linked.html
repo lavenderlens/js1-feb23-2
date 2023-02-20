@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LINKED</title>
+  </head>
+  <!-- framework or lib scripts FIRST -->
+  <script src="external.js"></script>
+  <!-- CUSTOM scripts AFTER the more general ones -->
+  <script>
+    function sayHi() {
+      alert("Hi from an INLINE script");
+    }
+  </script>
+  <!-- <script src="external.js"></script> -->
+
+  <body>
+    <h1>LINKED, LOCAL, AND INLINE</h1>
+
+    <!-- <button onclick="sayHi()">SAY HI</button> -->
+    <button
+      onclick="function sayHi(){alert('Hi from an INLINE script')};sayHi()"
+    >
+      SAY HI
+    </button>
+
+    <input type="hidden" name="PWD" value="Priamus7" />
+  </body>
+</html>
