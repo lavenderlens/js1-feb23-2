@@ -2,7 +2,8 @@
 
 A private repo for the onsite JavaScript 1 course
 
-To run the managed-web-app:
+## To run the managed-web-app:
 
 npm i
+
 npm start
